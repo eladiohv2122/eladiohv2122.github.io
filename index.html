@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="imagenes/icoCandado.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+
+
+    <body>
+        <header>            
+            <h1 class="logo" ><img src="imagenes/logo.svg" alt="logo-a"></h1>                
+            <h1 class="titulo-principal">Encriptador</h1>                        
+        </header>
+
+        <main>
+           
+            <section class="alerta">                
+                    <img src="Imagenes/alerta.svg" alt="alerta">
+                    <p>No se aceptan letras mayúsculas ni caracteres especiales</p>
+
+            </section>
+
+            <div class="contenedor">
+
+                <section class="seccion1">                
+                    <div class="contenedorcajatexto">
+                        <textarea cols="60" rows="20" placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+                    </div>
+                    
+                    <div class="contenedor-botones">
+                        <input type="button" class="btn-encriptar" value="Encriptar">
+                        <input type="button" class="btn-desencriptar" value="Desencriptar">
+                    </div>
+                </section>
+    
+                <section class="seccion2">
+                    <div class="contenedormunieco">
+                        <img src="Imagenes/Muñeco.svg" alt="muñeco">
+                    </div>
+                    <div class="contenedor-parrafo">
+                        <h3>Nigún mensaje fue <br> encontrado</h3>
+                        <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+                    </div>
+                    <div class="contenedor-copiar">
+                        <input type="button" class="btn-copiar" value="Copiar">
+                    </div>
+                    <div class="contenedor-resultado">
+                        <p class="texto-resultado"></p>
+                    </div>
+                </section>
+
+            </div>                     
+
+        </main>
+        
+        <footer>
+            <p> &copy; Copyright Joe Hernández - 2024</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+    
+</html> 
